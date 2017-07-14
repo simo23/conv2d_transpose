@@ -1,7 +1,7 @@
 # conv2d_transpose
 How Tensorflow's conv2d_transpose works
 
-This is a simple tutorial to show how Tensorflow's conv2d_transpose works. I obtain the conv2d_transpose() output using conv2d_backprop() and conv2d() functions by performing deconvolution from the activations of the first convolutional layer. The results are that conv2d_transpose() transposes the filter's weights and flips them by 180 degrees. 
+This is a simple tutorial to show how Tensorflow's conv2d_transpose works. I obtain the conv2d_transpose() output using conv2d_backprop_input() and conv2d() functions by performing deconvolution from the activations of the first convolutional layer. The results are that conv2d_transpose() transposes the filter's weights and flips them by 180 degrees. 
 
 I test this using a CNN on the MNIST dataset which obtains 99,2% test accuracy. The checkpoint of the already trained network is given.
 
