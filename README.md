@@ -18,6 +18,10 @@ To run this test I used Tensorflow 1.0 on Ubuntu 16.04, numpy 1.13.0, python 3.4
 To use it:
 - Check requirements ( not sure if it will work with other versions )
 - Download all the files and place them into a single folder
+- Download the checkpoint from my drive: https://drive.google.com/file/d/0B6UbcmAnS9tCUUJaZDBJQ25kSWM/view?usp=sharing
+- Extract the ckpt files and place them directly into the folder where the scrips are ( there should be 4 ckpt files in total )
+- Do not copy the ckpt folder, place all the scripts and ckpt files into one folder
 - Unzip the MNIST_data
 - Run the test.py script
 - An image should compare in the folder
+
